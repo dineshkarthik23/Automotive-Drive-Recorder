@@ -197,12 +197,7 @@ black_box/
 
 [3] Jegan, J., M. Raja Suguna, M. Shobana, H. Azath, S. Murugan, and M. Rajmohan. "IoT-Enabled Black Box For Driver Behavior Analysis Using Cloud Computing." In 2024 International Conference on Data Engineering and Intelligent Computing Systems (ADICS), pp. 1-6. IEEE, 2024.
 
-[4] World Aviation ATO, "Super Jumbo." [Online]. Available: https://worldaviationato.com/backend/wp-content/uploads/06wmt-super.jumbo.jpg. [Accessed: March 2, 2025]
-
 ## License
 
 This project is part of academic research on automotive safety and IoT-based vehicle monitoring systems.
 
-## Contributing
-
-Contributions and improvements are welcome. Please ensure all changes maintain the integrity of the crash detection algorithm and data logging functionality.
