@@ -114,21 +114,6 @@ A Wokwi-based simulation projects (`Crashdetection-Wokwi-Simulation/`) provides:
 - MPU6050 accelerometer with I2C interface
 - Serial communication for data visualization
 
-## Mobile Application (Flutter)
-
-The Flutter app provides:
-- Real-time dashboard of vehicle parameters
-- Historical data visualization and analytics
-- Incident review and forensic analysis
-- Settings and configuration interface
-- Cloud data synchronization status
-
-### Key Screens
-- **Dashboard**: Live acceleration, speed, GPS, and g-force metrics
-- **Incidents**: Timestamped crash detection events with GPS coordinates
-- **Analytics**: Driving behavior statistics and trends
-- **Settings**: WiFi configuration, cloud credentials, alert thresholds
-
 ## Data Flow & Workflow
 
 ```
