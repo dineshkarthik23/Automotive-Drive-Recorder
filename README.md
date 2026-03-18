@@ -4,8 +4,12 @@ An IoT-enabled Event Data Recorder system for low-end vehicles designed to monit
 
 ## Project Overview
 
-The **Automotive Drive Recorder** is a comprehensive solution for vehicle telematics and accident detection. It combines embedded systems (Arduino/ESP32), sensor fusion, cloud connectivity, and a Flutter mobile app to create an affordable black box system for monitoring fleet vehicles and analyzing driving patterns.
+- The proposed system uses an **ESP32** as the central controller for continuous vehicular data telemetry acquisition, event detection, and resilient local storage, with conditional cloud synchronization after critical incidents.
 
+- The system logs key parameters every 3 seconds, including speed, acceleration during turns, vehicle angle, indicator and brake status, and GPS location with timestamp.
+
+- Upon detecting an accident or near-crash, it automatically uploads an **incident package** to the cloud containing pre- and post-event sensor data, enabling accurate reconstruction and analysis.
+  
 ### Key Features
 
 - **Real-Time Crash Detection**: Detects abnormal acceleration and vehicle impacts using MPU6050 accelerometer
@@ -26,10 +30,8 @@ The **Automotive Drive Recorder** is a comprehensive solution for vehicle telema
 | **Microcontroller** | ESP32 DevKit v4 | Central processing unit with WiFi/BLE |
 | **Accelerometer** | MPU6050 | 3-axis acceleration and temperature sensing |
 | **GPS Module** | NEO-6M | Real-time location acquisition |
-| **Cellular Modem** | LARA-R2 | LTE connectivity for cloud upload |
 | **Storage** | SD Card Module | Local CSV data logging |
 | **Speed Sensor** | Hall Effect Sensor | Vehicle speed calculation via wheel rotation |
-| **Power Management** | - | Battery backup system |
 
 ### Sensor Connections (ESP32 Pinout)
 
