@@ -106,7 +106,6 @@ A Wokwi-based simulation projects (`Crashdetection-Wokwi-Simulation/`) provides:
 - Virtual ESP32 DevKit C v4 environment
 - Simulated MPU6050 sensor with realistic acceleration data
 - Serial monitor output for debugging
-- Project link: https://wokwi.com/projects/442081602958455809
 
 **Simulated Components:**
 - ESP32 microcontroller
