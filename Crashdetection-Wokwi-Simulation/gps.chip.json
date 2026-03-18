@@ -1,0 +1,11 @@
+{
+  "name": "gps",
+  "author": "Dinesh Karthik Venkatesh",
+  "pins": [
+    "VCC",
+    "GND",
+    "Tx",
+    "Rx"
+  ],
+  "controls": []
+}
