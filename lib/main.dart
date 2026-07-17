@@ -422,7 +422,7 @@ class _CarControlPageState extends State<CarControlPage> {
           IconButton(
             tooltip: dark ? 'Switch to Light Mode' : 'Switch to Dark Mode',
             icon: AnimatedSwitcher(
-              duration: const Duration(milliseconds: 300),
+              duration: const Duration(milliseconds: 200),
               child: Icon(
                 dark ? Icons.light_mode_outlined : Icons.dark_mode_outlined,
                 key: ValueKey(dark),
