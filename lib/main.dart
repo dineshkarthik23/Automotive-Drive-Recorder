@@ -887,7 +887,7 @@ class _StopButtonState extends State<StopButton> {
                 fontSize: 15,
                 fontWeight: FontWeight.w900,
                 color: Colors.white,
-                letterSpacing: 2.5,
+                letterSpacing: 2.4,
               ),
             ),
           ],
